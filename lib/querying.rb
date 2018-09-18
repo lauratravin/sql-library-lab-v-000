@@ -53,5 +53,6 @@ def select_character_names_and_number_of_books_they_are_in
           b.book_id
    FROM characters as a
    INNER JOIN character_books as b
-   ON b.character_id = a.id "
+   ON b.character_id = a.id 
+   DESC"
 end
